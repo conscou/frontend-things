@@ -1,0 +1,288 @@
+body{
+	overflow-x:hidden;
+}
+
+.giant-container{
+	margin: 0 auto;
+	width: 1024px;
+}
+
+#header h1, h2, .hello-chris h1{
+	display: block;
+	font-family: "Droid Sans", sans-serif;
+	font-weight: 400;
+	text-align: left;
+	color: #393939;
+}
+
+#header h1{
+	font-size: 62px;
+}
+
+#header h2{
+	font-size: 20px;
+	line-height: 0.35;
+	margin-top: -5px;
+}
+
+.social-media{
+	margin-top: -28px;
+	float:right;
+	display: inline-block;
+	color:#393939;
+	font-size: 20px;
+}
+
+.social-media i {
+	margin: 0 5px;
+}
+
+.social-media-footer{
+	float:none;
+	text-align: center;
+	display: none;
+}
+
+.navbar {
+	margin-top: 20px;
+	background-color: #090909;
+	border-color: #090909;
+	color: #f9f9f9;
+	font-family: "Droid Sans", sans-serif;
+
+}
+
+.navbar .navbar-nav {
+  display: inline-block;
+  float: none;
+  vertical-align: top;
+}
+
+.navbar .navbar-collapse {
+  text-align: center;
+}
+
+.nav-ul{
+	margin-left: 4rem;
+	margin-right: 5rem;
+}
+
+.nav-ul li{
+	text-decoration:none;
+	display: inline-block;
+	text-align: center;
+	margin: 2rem 3rem 1rem;
+	font-size: 16px;
+	
+}
+
+.nav-ul li a{
+	color: #f9f9f9;
+	text-decoration: none;
+	
+}
+
+.nav li a {
+    padding: 15px 30px;
+}
+
+a {
+	color: #393939;
+}
+
+.nav-ul li a:hover, a:hover{
+	color: #595959;
+	transition: all .3s ease-in-out;
+}
+
+.hello-chris, #headshots, #performance-shots, #videos{
+	overflow: auto;
+	margin-bottom: 3.5rem;
+}
+
+
+iframe{
+	display: inline-block;
+	width: 448px;
+	height: 252px;
+	margin: 10px;
+}	
+
+.hello-chris h1, 
+.hello-chris-center h1{
+	font-size: 36px;
+}
+
+
+.hello-chris #headshot-1, #headshot-2, #headshot-3{
+	float:left;
+	width: 420px;
+	height: auto;
+	margin-right: -5rem;
+}
+#headshots, #videos{
+	text-align: center;
+}
+
+#headshots #headshot1, #headshot2, #headshot3 {
+	width: 300px;
+	height: auto;
+	display: inline-block;
+	margin: 0 10px;
+}
+
+.hello-chris #image-one{
+	float: right;
+	margin-right: 0rem;
+	width: 580px;
+	height: auto;
+}
+
+.hello-chris #image-two {
+	float: right;
+	margin-right: 25rem;
+	width: 330.5px;
+	height: auto;
+	margin-top: 2rem;
+}
+
+.hello-chris #image-three{
+	float: right;
+	margin-right: -58rem;
+	height: 278px;
+	width: auto;
+	margin-top: 1.73rem;
+}
+
+.hello-chris #image-four{
+	float:left;
+	width: 500px;
+	height: auto;
+
+}
+
+
+.hello-chris #about, #arts-education{
+	float: right;
+	width: 50%;
+	text-align: left;
+	padding: 10rem 0;
+}
+
+#performance-shots {
+	width: 100%;
+}
+
+.media-img{
+	width: 500px;
+	height: auto;
+	margin: 10px 5px;
+	display: inline-block;
+}
+
+.hello-chris-center{
+	padding: 50px;
+	text-align: center;
+}
+
+footer{
+	margin: 0;
+	position:relative;
+	bottom:0;
+	left:0;
+	text-align: center;
+	min-height: 100px;
+	font-family: "Droid Sans", sans-serif;
+	font-weight: 400;
+	color: #393939;
+}
+
+footer h8{
+	font-family: "Droid Sans", sans-serif;
+	font-weight: 400;
+	color: #393939;
+}
+
+@media (max-width: 768px) {
+	.giant-container{
+		margin: 0 auto;
+		width: 100%;
+		text-align: center;
+	}
+	
+	#header{
+		text-align: center;
+	}
+	
+	#header h1, h2{
+		text-align: center;
+	}
+	
+	.social-media{
+		display: none;
+	}
+	
+	.hello-chris, #headshots, #performance-shots, #video{
+		text-align: center;
+	}
+	
+	.hello-chris #about,  #arts-education {
+		width: 100%;
+		text-align: center;
+		padding: 0 50px;
+	}
+
+	.hello-chris h1{
+		text-align: center;
+	}
+	
+	.hello-chris  #headshot-1, #headshot-2, #headshot-3{
+		float:none;
+		width: 420px;
+		height: auto;
+		margin-right: 0;
+	}
+
+	
+	.hello-chris #image-one{
+		display: none;
+	}
+	
+	.hello-chris #image-two {
+		display: none;
+	}
+
+	.hello-chris #image-three{
+		display: none;
+	}
+	
+	#headshots #headshot1, #headshot2, #headshot3{
+		margin: 30px
+	}
+	
+	.media-img{
+		width: 350px;
+		height: auto;
+		margin: 25px;
+	}
+	
+	iframe{
+		width: 320px;
+		height: auto;
+	}	
+	
+	.social-media-footer{
+		display: inline-block;
+		font-size: 22px;
+	}
+	
+	.social-media-footer i {
+		margin: 0 10px;
+	}
+	
+	
+
+
+}
+
+

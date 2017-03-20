@@ -1,0 +1,265 @@
+body{
+	background-color: #f9f9f9;
+}
+
+a{
+	color:#800000;
+}
+
+a:hover{
+	color:#330000;
+	transition: all .3s ease-in-out;
+}
+
+#hero, #news{
+	text-align:center;
+	margin: 0 auto;
+	padding: 28px;
+}
+
+
+#hero h1{
+	font-family: "Droid Sans", sans-serif;
+	font-weight: 400;
+	font-size: 100px;
+	color:#800000;
+}
+
+#hero h2 {
+	font-size: 16px;
+	color: #bbbbbb;
+}
+
+
+.navbar{
+	font-family: "Droid Sans", sans-serif;
+}
+
+.navbar-inverse{
+	background-color:transparent;
+	border: none;
+}
+
+.navbar .navbar-nav {
+  display: inline-block;
+  float: none;
+  vertical-align: top;
+}
+
+.navbar .navbar-collapse {
+  text-align: center;
+}
+
+.nav-ul{
+	margin-left: 4rem;
+	margin-right: 5rem;
+}
+
+.nav-ul li{
+	text-decoration:none;
+	display: inline-block;
+	text-align: center;
+	margin: 2rem 3rem 1rem;
+	font-size: 16px;
+	
+}
+
+.nav-ul li a{
+	color: #090909;
+	text-decoration: none;
+}
+
+.nav>li>a:hover, .nav>li>a:focus {
+	text-decoration: none;
+	background-color: trans;
+}
+
+.navbar-inverse .navbar-nav>li>a:hover{
+	color:#800000;
+}
+
+.chris-container{
+	text-align: center;
+	overflow: auto;
+	padding: 40px;
+}
+
+#headshots, #videos{
+	text-align: center;
+}
+
+.sm-headshots{
+	width: 300px;
+	height: auto;
+	display: inline-block;
+	margin: 0 10px;
+	border-radius: 100%;
+}
+
+#news h1, .chris-container h1{
+	font-family: "Droid Sans", sans-serif;
+	font-size:48px;
+}
+
+
+.news-section{
+	width: 600px;
+	margin: 65px auto;
+	text-align: left;
+}
+
+#news .news-section .news-date h1{
+	font-size:24px;
+	font-family: "Droid Sans", sans-serif;
+
+}
+
+
+#news ul li{
+	list-style-type: none;
+	margin: 20px;
+}
+.chris-container {
+	width:1024px;
+	margin: 0 auto;
+}
+
+.chris-container #about, #arts-education{
+	float: right;
+	width: 50%;
+	text-align: left;
+	padding: 10rem 0;
+}
+
+
+#headshot-2{
+	float:left;
+	width: 420px;
+	height: auto;
+	margin-right: -5rem;
+	margin-top:60px;
+}
+
+#arts-ed{
+	margin: 0 auto;
+	padding-top: 25px;
+	width: 550px;
+	text-align: center;
+}
+
+#arts-ed ol{
+	text-align:left;
+}
+
+#arts-ed ol li{
+	margin: 10px;
+	font-weight:800;
+}
+
+.caption{
+	font-weight:800;
+	font-size: 14px;
+}
+
+.caption-media{
+	font-weight:800;
+	font-size: 14px;
+}
+
+#contact-chris{
+	float: left;
+	display:inline-block;
+	margin-top: 100px;
+	margin-left: 150px;
+	width: 300px;
+	text-align: left;
+}
+
+iframe{
+	display: inline-block;
+	width: 560px;
+	height: 315px;
+	margin: 40px;
+}	
+
+iframe .media-vid{
+	margin-bottom: 10px;
+}
+
+#arts-edu-vid{
+	margin-top:-30px;
+}
+
+#headshots, #performance-shots{
+	overflow: auto;
+	margin-bottom: 3.5rem;
+}
+
+#performance-shots {
+	width: 100%;
+	margin: 0 auto;
+}
+
+.media-img{
+	width: 650px;
+	height: auto;
+	margin: 10px 0px;
+	display: inline-block;
+}
+
+#headshots #headshot1, #headshot2, #headshot3 {
+	width: 300px;
+	height: auto;
+	display: inline-block;
+	margin: 0 5px;
+}
+
+#agent-info{
+	width: 300px;
+	float: right;
+	text-align: left;
+	margin-top: 100px;
+	display:inline-block;
+}
+
+#agent-info h1, #contact-chris h4{
+	font-weight: 800;
+	font-size: 18px;
+	margin: 15px 15px 15px 0;
+}
+
+#agent-info h3{
+	font-weight: 400;
+	font-size: 14px;
+	margin: 5px;
+}
+
+#contact-stuff{
+	padding:50px;
+	margin-bottom: 100px;
+}
+
+footer{
+	padding: 50px 0;
+	text-align:center;
+}
+
+	
+.social-media-footer{
+	display: inline-block;
+	font-size: 22px;
+}
+	
+.social-media-footer i {
+	margin: 0 10px;
+}
+
+.social-media-footer a{
+	color:#800000;
+}
+
+.social-media-footer a:hover{
+	color:#330000;
+	transition: all .3s ease-in-out;
+}
+
